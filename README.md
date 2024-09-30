@@ -5,6 +5,8 @@ This is a Group Chatting Web App where you can create server according to the to
 First, run the development server:
 
 ```bash
+npm install
+
 npm run dev
 # or
 yarn dev
@@ -30,7 +32,6 @@ docker compose up
 ```
 Then
 ```bash
-npm install
 
 #install prisma
 npm install prisma --save-dev
