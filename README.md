@@ -49,3 +49,24 @@ npm install @prisma/client
 #Run prisma studio
 npx prisma studio
 ```
+
+## Setup .env file
+first create the .env file in the project folder
+
+Then add these required keys
+
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+
+DATABASE_URL=""
+
+UPLOADTHING_SECRET=''
+UPLOADTHING_APP_ID=''
+UPLOADTHING_TOKEN=''
+
+```
